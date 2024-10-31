@@ -1,0 +1,199 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  width: 900px;
+  justify-content: space-evenly;
+}
+
+/* Form  */
+
+label {
+  display: block;
+}
+
+input {
+  margin: 0 0 5px 5px;
+}
+
+/* Grid  */
+
+.gridContainer {
+  background-color: #000;
+  display: flex;
+  background: url(assets/bg.jpg) no-repeat top left;
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.3rem;
+  height: 48px;
+}
+
+.cell {
+  display: flex;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.cell svg {
+  width: 80px;
+  height: 80px;
+}
+
+/* svg classes */
+
+.cls-1 {
+  fill: #f6faf2;
+}
+
+.cls-2 {
+  fill: #f9f210;
+}
+
+.cls-3 {
+  fill: #f9f9fa;
+}
+
+.cls-4 {
+  fill: #f8fbfb;
+}
+
+.cls-5 {
+  fill: #060606;
+}
+
+.cls-6 {
+  fill: #050505;
+}
+
+
+.cls-8 {
+  fill: #fcfcfb;
+}
+
+.cls-9 {
+  fill: #fcfcfc;
+}
+
+
+.cls-11 {
+  fill: #ec1d26;
+}
+
+.cls-12 {
+  fill: #edf232;
+}
+
+.cls-13 {
+  fill: #f3d7bb;
+}
+
+.cls-14 {
+  fill: #fffffe;
+}
+
+.cls-15 {
+  fill: #fff;
+}
+
+
+.cls-17 {
+  fill: #fefefe;
+}
+
+.cls-18 {
+  fill: #fcd1b0;
+}
+
+.cls-19 {
+  fill: #fbf8f8;
+}
+
+
+.cls-22 {
+  fill: #fdfdfd;
+}
+
+.cls-23 {
+  fill: #fcf8f6;
+}
+
+.cls-24 {
+  fill: #fdf9fd;
+}
+
+.cls-25 {
+  fill: #e21e2d;
+}
+
+.cls-26 {
+  fill: #0765b1;
+}
+
+.cls-27 {
+  fill: #080808;
+}
+
+.cls-28 {
+  fill: #0965b2;
+}
+
+.cls-29 {
+  fill: #0a0404;
+}
+
+.cls-30 {
+  fill: #0d0402;
+}
+
+.cls-31 {
+  fill: #884c2f;
+}
+
+.cls-32 {
+  fill: #48c4dd;
+}
+
+.cls-33 {
+  fill: #3bc2e1;
+}
+
+.cls-34 {
+  fill: #844d31;
+}
